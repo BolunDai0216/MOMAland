@@ -33,7 +33,6 @@ dependencies = [
     "PyOpenGL >=3.1.6",
     "PyOpenGL-accelerate >=3.1.1",
     "pillow >=8.3.1",
-    "wandb >=0.16.1",
 ]
 dynamic = ["version"]
 
@@ -53,6 +52,7 @@ learning = [
     "matplotlib >=3.10.0",
     "morl_baselines[all] >=1.1.0",
     "pycddlib==2.1.6",
+    "wandb >=0.16.1",
 ]
 all = [
     "momaland[learning]",
